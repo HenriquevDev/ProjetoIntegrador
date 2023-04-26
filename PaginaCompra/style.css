@@ -3,7 +3,7 @@
 }
 
 .cabecalho{
-    position: fixed;
+    position: absolute;
     right: 0;
     left: 0;
     display: flex;
@@ -13,7 +13,7 @@
     height: 35px;
 }
 .segcabecalho{
-    position: fixed;
+    position: absolute;
     right: 0;
     left: 0;
     display: flex;
