@@ -180,7 +180,7 @@ footer {
 .carousel-inner,
 .active {
     max-height: 350px;
-    object-fit: cover;
+    position: absolute;
 }
 
 /* parte dos produtos */
@@ -188,7 +188,14 @@ footer {
     display: inline-flex;
     justify-content: space-evenly;
     margin: 10px;
+    margin-bottom: 20px;
 
+}
+.produto-destaque{
+    transform: scale(1.1);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
 }
 
 .bloco {
