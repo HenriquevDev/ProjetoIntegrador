@@ -1,18 +1,19 @@
-.body{
+.body {
     background-color: #D9D9D9;
 }
 
-.cabecalho{
+.cabecalho {
     position: absolute;
     right: 0;
     left: 0;
     display: flex;
-   top: 0;
+    top: 0;
     background-color: #71734C;
     color: #71734C;
     height: 35px;
 }
-.segcabecalho{
+
+.segcabecalho {
     position: absolute;
     right: 0;
     left: 0;
@@ -22,84 +23,93 @@
     color: #F27979;
 }
 
-.img{
+.img {
     position: absolute;
-width: 620px;
-height: 620px;
-left: 100px;
-top: 150px;
-background: #080808;
+    width: 620px;
+    height: 620px;
+    left: 100px;
+    top: 150px;
+    background: #080808;
 }
 
-.nome{
+.nome {
     float: right;
     display: table-cell;
     width: 600px;
     margin-right: 200px;
-    margin-top: 200px;  
+    margin-top: 200px;
     text-align: center;
 }
 
-.descricao{
-float: right;
-display: table-cell;
-width: 600px;
-margin-right: 200px;
-margin-top: 50px;
-}
-
-.opicoes{
-width: 600px;
-height: 110px;
-float: right;
-display: table-cell;
-margin-right: 200px;
-margin-top: 10px;
-background: #F27979;
-border-radius: 20px;
-}
-
-.calcular{
+.descricao {
     float: right;
     display: table-cell;
     width: 600px;
     margin-right: 200px;
     margin-top: 50px;
 }
-.frete{
+
+.opicoes {
+    width: 600px;
+    height: 110px;
+    float: right;
+    display: table-cell;
+    margin-right: 200px;
+    margin-top: 10px;
+    background: #F27979;
+    border-radius: 20px;
+}
+.quantidade{
+    margin-top: 4%;
+}
+
+
+.calcular {
+    float: right;
+    display: table-cell;
+    width: 600px;
+    margin-right: 200px;
+    margin-top: 50px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.frete {
     position: absolute;
-width: 200px;
-height: 30px;
-background: #71734C;
-border-radius: 30px;
-top: 590px;
-right: 10px;
-left: 800px;
+    width: 200px;
+    height: 30px;
+    background: #71734C;
+    border-radius: 30px;
+    top: 590px;
+    right: 10px;
+    left: 800px;
 
 }
 
-.comprar{
+.comprar {
     position: absolute;
     width: 200px;
     height: 44px;
     background: #F27979;
     border-radius: 26px;
     top: 650px;
-right: 10px;
-left: 800px; 
+    right: 10px;
+    left: 800px;
+    font-weight: bold;
 }
 
-.adicionar{
+.adicionar {
     position: absolute;
     width: 200px;
     height: 44px;
     background: #F27979;
     border-radius: 26px;
     top: 650px;
-left: 1050px; 
+    left: 1050px;
+    font-weight: bold;
 }
 
-.pesquisar{
+.pesquisar {
     position: absolute;
     width: 60px;
     height: 30px;
@@ -107,5 +117,105 @@ left: 1050px;
     border-radius: 30px;
     top: 590px;
     right: 10px;
-    left: 1020px; 
+    left: 1020px;
+}
+
+
+
+.estreladesligada {
+
+    width: 40px;
+
+    right: 50px;
+
+    left: 10px;
+
+    margin-top: 105px;
+
+
+
+}
+
+.estrela {
+
+    margin-left: 288px;
+
+    margin-top: 42%;
+
+}
+
+.quantidade {
+
+    position: absolute;
+
+    top: 650px;
+
+    left: 840px;
+
+}
+
+.menos {
+
+    background: #F27979;
+    
+    font-weight: bold;
+
+    position: absolute;
+
+    width: 20px;
+
+    height: 20px;
+
+    margin-top:47% ;
+
+    left: 790px;
+
+}
+
+.mais {
+
+    background: #F27979;
+
+    position: absolute;
+
+    font-weight: bold;
+
+    width: 20px;
+
+    height: 20px;
+
+    margin-top:47% ;
+
+    left: 940px;
+
+}
+
+.numeros {
+
+    background: #F27979;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    position: absolute;
+
+    width: 100px;
+
+    height: 20px;
+
+    margin-top:47% ;
+
+    left: 825px;
+
+}
+
+.Comentarios {
+
+    position: absolute;
+
+    top: 1000px;
+
+    left: 100px;
+
 }
